@@ -201,7 +201,7 @@
         moreDataButton.addEventListener("click", () => {
           const reconciliationIdentity = deviceInfo["ReconciliationIdentity"];
           if (reconciliationIdentity) {
-            window.location.href = `https://itsm-smartit.moh.gov.sa/smartit/app/#/asset/${reconciliationIdentity}`;
+            window.location.href = `https://itsm-smartit.moh.gov.sa/smartit/app/#/asset/${reconciliationIdentity}/`;
           } else {
             alert("ReconciliationIdentity not found.");
           }
